@@ -1,8 +1,9 @@
 /*---------------------ROOTS---------------------*/
 :root {
+  --realyDarkPlum: #271A2E;
   --darkPlum: #2F2435;
   --lightPlum: #3A2D3E;
-  --ligntText: #B3B3B5;
+  --lightText: #B3B3B5;
   --green: #35D827;
   --orange: #fc4837;
   --pink: #d82793;
@@ -17,6 +18,75 @@ body, p, span, a, figcaption, label, input {
   font-family: 'Raleway', sans-serif;
 }
 /*---------------------GENERALS---------------------*/
+.bg-realyDarkPlum {
+  background-color: var(--realyDarkPlum);
+}
 
+.bg-darkPlum {
+  background-color: var(--darkPlum);
+}
+
+.bg-lightPlum {
+  background-color: var(--lightPlum);
+}
+
+.bg-lightPlum {
+  background-color: var(--lightPlum);
+}
+
+.lightText {
+  color: var(--lightText);
+}
+
+.greenText {
+  color: var(--green);
+}
+
+.orangeText {
+  color: var(--orange);
+}
+
+.pinkText {
+  color: var(--pink);
+}
+
+a:hover {
+  color: var(--green);
+}
+
+.border-orange {
+  border-color: var(--orange) !important;
+}
 
 /*---------------------PAGE---------------------*/
+
+header img{
+  height: 120px;
+  position: relative;
+  bottom: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+nav .navbar-toggler {
+  background-color: var(--lightText);
+  border: 1px solid var(--orange);
+  color: var(--orange);
+}
+
+nav .navbar-toggler-icon{
+  color: var(--orange);
+}
+
+/*---------------------RESPONSIVE---------------------*/
+
+@media screen and (min-width: 768px) {
+  header img{
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  header img:hover{
+    bottom: 10px;
+  }
+}
