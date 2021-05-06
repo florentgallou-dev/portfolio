@@ -3,7 +3,7 @@ import picture from './img/florentGALLOU.jpg';
 
 function Header(props)  {
     return (
-        <header className="bg-dark text-center text-white">
+        <header className="bg-realyDarkPlum text-center text-white">
             <section className="container p-3">
                 <div className="row align-items-center">
                     <div className="col-6">

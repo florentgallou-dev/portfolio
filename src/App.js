@@ -20,7 +20,7 @@ function App() {
       <Router>
         <Header />
         <Nav />
-        <div className="container py-5">
+        <div>
           <Switch>
             <Route path="/home">
               <Home />

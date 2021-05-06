@@ -104,6 +104,11 @@ footer a {
   color: var(--lightText);
 }
 
+/*projects*/
+.technoBox {
+  width: fit-content;
+}
+
 /*---------------------RESPONSIVE---------------------*/
 
 @media screen and (min-width: 768px) {
