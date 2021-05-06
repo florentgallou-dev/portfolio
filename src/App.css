@@ -17,6 +17,10 @@ h1, h2, h3, h4, h5, h6 {
 body, p, span, a, figcaption, label, input {
   font-family: 'Raleway', sans-serif;
 }
+
+a{
+  transition: all 0.3s ease-out;
+}
 /*---------------------GENERALS---------------------*/
 .bg-realyDarkPlum {
   background-color: var(--realyDarkPlum);
@@ -60,13 +64,21 @@ a:hover {
 
 /*---------------------PAGE---------------------*/
 
+/*header*/
+#divPictureFG {
+  position: relative;
+  perspective: 100px;
+}
+
 header img{
   height: 120px;
   position: relative;
-  bottom: 0;
+  transform-style: preserve-3d;
+  transform: rotateY(0deg);
   transition: all 0.3s ease-in-out;
 }
 
+/*nav*/
 nav .navbar-toggler {
   background-color: var(--lightText);
   border: 1px solid var(--orange);
@@ -75,6 +87,26 @@ nav .navbar-toggler {
 
 nav .navbar-toggler-icon{
   color: var(--orange);
+}
+
+nav .navbar-toggler-icon i{
+  font-size: 1.8rem;
+}
+
+/*footer*/
+footer .list-group-item {
+  color: inherit;
+  background-color: transparent;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--lightText);
+}
+
+/*projects*/
+.technoBox {
+  width: fit-content;
 }
 
 /*---------------------RESPONSIVE---------------------*/
@@ -87,6 +119,6 @@ nav .navbar-toggler-icon{
 
 @media screen and (min-width: 1200px) {
   header img:hover{
-    bottom: 10px;
+    transform: rotateY(10deg);
   }
 }
