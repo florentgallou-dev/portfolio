@@ -109,6 +109,19 @@ footer a {
   width: fit-content;
 }
 
+.projectCard{
+  box-shadow: 0px 0px 0px 0px transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.projectCard:hover{
+  box-shadow: 0px 0px 3px 0px var(--green);
+}
+
+.linkToCard{
+  text-decoration: none;
+}
+
 /*---------------------RESPONSIVE---------------------*/
 
 @media screen and (min-width: 768px) {
