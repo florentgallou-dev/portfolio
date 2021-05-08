@@ -1,0 +1,185 @@
+  {
+    "datas": [
+      {
+        "name": "1/ Initiation à Git",
+        "about": "Initiation aux principes de base du logiciel de versionning Git et de GitHub",
+        "urlGh": "https://github.com/FlorentGallou-Dev/atelierGit",
+        "urlPage": null,
+        "technologies": [
+          "git",
+          "github"
+        ]
+      },
+      {
+        "name": "2/ Initiation au Markdown",
+        "about": "Initiation au principe de documentation de projet en utilisant une synthaxe en Markdown.",
+        "urlGh": "https://github.com/FlorentGallou-Dev/lexique",
+        "urlPage": null,
+        "technologies": [
+          "git",
+          "github",
+          "markdown"
+        ]
+      },
+      {
+        "name": "3/ Pierre Feuille Ciseaux",
+        "about": "Projet de création d'un jeu Pierre Feuille Ciseaux entièrement en js en utilisant uniquement la méthode 'Alert'.",
+        "urlGh": "https://github.com/FlorentGallou-Dev/pierre_feuille_ciseaux",
+        "urlPage": "https://florentgallou-dev.github.io/pierre_feuille_ciseaux/",
+        "technologies": [
+          "git",
+          "github",
+          "markdown",
+          "javascript"
+        ]
+      },
+      {
+        "name": "4/ Jeu du pendu",
+        "about": "Projet de création d'un jeu du pendu entièrement en js en utilisant uniquement la méthode 'Alert'.",
+        "urlGh": "https://github.com/FlorentGallou-Dev/hangman_game",
+        "urlPage": "https://florentgallou-dev.github.io/hangman_game/",
+        "technologies": [
+          "git",
+          "github",
+          "markdown",
+          "javascript"
+        ]
+      },
+      {
+        "name": "5/ Site - Terre de Geek",
+        "about": "Projet de site internet vitrine sur le thème d'un magasin de vente d'informatique et goodies geek entièrement contruit en HTML5 et CSS3 en respectant le responsive design mobile first.",
+        "urlGh": "https://github.com/FlorentGallou-Dev/TerreDeGeek",
+        "urlPage": "https://florentgallou-dev.github.io/TerreDeGeek/",
+        "technologies": [
+          "git",
+          "github",
+          "markdown",
+          "html5",
+          "css3",
+          "kanban",
+          "wireframes",
+          "sitemap",
+          "validator"
+        ]
+      },
+      {
+        "name": "6/ Site - NorImmo",
+        "about": "Projet de site internet vitrine sur le thème d'un entreprise de construction/rénovation immobilière, travail effectué en équipe avec Axel Jarnigon. Entièrement contruit en Bootstrap et dynamisé en JavaScript respectant le responsive design mobile first.",
+        "urlGh": "https://github.com/FlorentGallou-Dev/norImmo",
+        "urlPage": "https://florentgallou-dev.github.io/norImmo/",
+        "technologies": [
+          "git",
+          "github",
+          "markdown",
+          "html5",
+          "css3",
+          "kanban",
+          "wireframes",
+          "sitemap",
+          "boilerplate",
+          "validator",
+          "bootstrap",
+          "javascript"
+        ]
+      },
+      {
+        "name": "7/ Site - Banque de Gringotts",
+        "about": "Projet de création de site internet pour une banque, création en javascript de fonctionnalités de gestion de compte et utilisation d'API pour intégration des données.",
+        "urlGh": "https://github.com/FlorentGallou-Dev/banqueGringotts",
+        "urlPage": "https://florentgallou-dev.github.io/banqueGringotts/",
+        "technologies": [
+          "git",
+          "github",
+          "markdown",
+          "html5",
+          "css3",
+          "kanban",
+          "wireframes",
+          "sitemap",
+          "boilerplate",
+          "validator",
+          "bootstrap",
+          "javascript",
+          "api",
+          "httprequest",
+          "ajax"
+        ]
+      },
+      {
+        "name": "8/ Site - Jeu des paires",
+        "about": "Projet de création de site internet de jeu des paires entèrement réalisé en html css et javascript en respectant les normes ES6.",
+        "urlGh": "https://github.com/FlorentGallou-Dev/memoryGame",
+        "urlPage": "https://florentgallou-dev.github.io/memoryGame/",
+        "technologies": [
+          "git",
+          "github",
+          "markdown",
+          "html5",
+          "css3",
+          "kanban",
+          "wireframes",
+          "sitemap",
+          "boilerplate",
+          "validator",
+          "bootstrap",
+          "javascript",
+          "es6",
+          "dry"
+        ]
+      },
+      {
+        "name": "9/ Website - Dynamic website presenting information rested to the SWAPI API.",
+        "about": "First react.js project introducing react.js concept and workflow, using a react.js and bootstrap architectures i have to create a dynamic website that requests the star wars api to display it's datas.",
+        "urlGh": "https://github.com/FlorentGallou-Dev/appfrontreactapi",
+        "urlPage": "https://florentgallou-dev.github.io/appfrontreactapi/",
+        "technologies": [
+          "git",
+          "github",
+          "markdown",
+          "html5",
+          "css3",
+          "kanban",
+          "wireframes",
+          "sitemap",
+          "boilerplate",
+          "validator",
+          "bootstrap",
+          "javascript",
+          "es6",
+          "dry",
+          "api",
+          "react",
+          "routerdom",
+          "axios",
+          "nodejs"
+        ]
+      },
+      {
+        "name": "10/ Site - Mon portfolio.",
+        "about": "Création de mon portfolio pour valider la fin du Front-end, le mot d'ordre, se faire plaisir et appliquer le maximum de technologies vues jusqu'alors.",
+        "urlGh": "https://github.com/FlorentGallou-Dev/portfolio",
+        "urlPage": "https://florentgallou-dev.github.io/portfolio/",
+        "technologies": [
+          "git",
+          "github",
+          "markdown",
+          "html5",
+          "css3",
+          "kanban",
+          "wireframes",
+          "sitemap",
+          "boilerplate",
+          "validator",
+          "bootstrap",
+          "javascript",
+          "es6",
+          "dry",
+          "api",
+          "react",
+          "routerdom",
+          "axios",
+          "nodejs"
+        ]
+      }
+    ]
+  }
