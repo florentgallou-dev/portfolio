@@ -111,7 +111,7 @@ footer .list-group-item {
   background-color: transparent;
 }
 
-footer a {
+footer a, .linkMail {
   text-decoration: none;
   color: var(--lightText);
 }
