@@ -16,6 +16,12 @@ function Nav(){
                         <li className="nav-item">
                             <Link className="nav-link lightText fw-bold text-center" to="/technology" aria-label="Afficher mes Technologies">Technologies</Link>
                         </li>
+                        <li className="nav-item">
+                            <Link className="nav-link lightText fw-bold text-center" to="/about" aria-label="Afficher mes Technologies">À Propos</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link lightText fw-bold text-center" to="/contact" aria-label="Afficher mes Technologies">Contact</Link>
+                        </li>
                     </ul>
                 </div>
             </div>

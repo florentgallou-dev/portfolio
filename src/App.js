@@ -6,6 +6,8 @@ import Nav from './components/layout/nav/Nav';
 
 import Home from './components/home/Home';
 import Technology from './components/technology/Technology';
+import About from './components/about/About';
+import Contact from './components/contact/Contact';
 
 import React from "react";
 import {
@@ -27,6 +29,12 @@ function App() {
             </Route>
             <Route path="/technology">
               <Technology />
+            </Route>
+            <Route path="/about">
+              <About />
+            </Route>
+            <Route path="/contact">
+              <Contact />
             </Route>
             <Route path="/">
               <Home />
