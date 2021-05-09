@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-function Footer(props)  {
+function Footer()  {
     return (
         <footer className="container-fluid bg-realyDarkPlum">
             <div className="row p-3">
@@ -14,15 +14,16 @@ function Footer(props)  {
                     <div>
                         <ul className="list-group list-group-flush text-center">
                             <li className="list-group-item">
-                                <i class="fas fa-laptop-code d-inline px-2 orangeText"></i>
-                                <p class="d-inline px-2 lightText">Développeur Web et Web mobile</p>
+                                <i className="fas fa-laptop-code d-inline px-2 orangeText"></i>
+                                <p className="d-inline px-2 lightText">Développeur Web et Web mobile</p>
                             </li>
                             <li className="list-group-item">
-                                <i class="fas fa-map-marker-alt d-inline px-2 orangeText"></i>
-                                <p class="d-inline px-2 lightText">Normandie</p>
+                                <i className="fas fa-map-marker-alt d-inline px-2 orangeText"></i>
+                                <p className="d-inline px-2 lightText">Normandie</p>
                             </li>
                             <li className="list-group-item">
-                                <i class="fas fa-envelope d-inline px-2 orangeText"></i>
+                                <i className="fas fa-envelope d-inline px-2 orangeText"></i>
+                                {/*Link to create a mailto*/}
                                 <Link to='#' onClick={(e) => {
                                     window.location = "mailto:florentgallou@gmail.com";
                                     e.preventDefault();

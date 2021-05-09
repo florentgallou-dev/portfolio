@@ -3,7 +3,7 @@ import Axios from 'axios';
 
 //GET THE PROPS FROM AddProject using this.props.technologies from line 24 of AddProject.js
 
-class Technology extends React.Component {
+class AddTechnology extends React.Component {
     constructor(props) {
         super(props);
         this.state ={
@@ -13,26 +13,27 @@ class Technology extends React.Component {
         }
     }
 
-    //Function to create technologies DOM elements from the technologie API
-    createDOMTechnologyElementList = (technoFromAPI) => {
-        //To store the DOM element list
+    //Function to retreive the actual project technologies list and compare it to the technologie API list to create the technologies DOM elements corresponding to the actual project
+    createDOMTechnologyElementList = (technoFromAPI, technoListFromProject) => {
+        //To store the complete list of DOM elements technologies corresponding to the actual project
         let listOfElementsFromProjectTechnologies = [];
+        //Look of each technologie in the project technologie list
+        Object.keys(technoListFromProject).forEach(key1 => {
             //Look of each technologie in the technologie API
             Object.keys(technoFromAPI).forEach(key2 => {
-                    //inject the technology DOM element with the right informations from the technologies API
+                //Compare the two technologies if they are the same
+                if(technoListFromProject[key1] === key2){
+                    //If so inject the technology DOM element with the right informations from the technologies API
                     listOfElementsFromProjectTechnologies.push(
                         <div className="technoBox p-2">
-                            <div className="projectCard bg-lightPlum p-5">
-                                <div className="fs-1 p-3">
-                                    <i className={`${technoFromAPI[key2].icon} orangeText`} aria-hidden="true"></i>
-                                </div>
-                                <div>
-                                    <h3 className="lightText p-3">{technoFromAPI[key2].name}</h3>
-                                </div>
-                            </div>
+                            <i className={`${technoFromAPI[key2].icon} orangeText`} aria-hidden="true"></i>
+                            <p className="lightText">{technoFromAPI[key2].name}</p>
                         </div>
                     );
+                }
             });
+        });
+        
         return listOfElementsFromProjectTechnologies;
     }
 
@@ -42,7 +43,7 @@ class Technology extends React.Component {
         Axios.get("/portfolio/technologies.json")
         // handle successfull response
         .then( (response) => {
-            //Manage respônse
+            //Manage response
             this.setState({
                 loaded: true,
                 data: response.data, //Fill data with the raw datas from response
@@ -70,15 +71,8 @@ class Technology extends React.Component {
             //Handle http state loaded without and error
             return(
                 // Inject this element in its parent AddProject
-                <div className="bg-darkPlum">
-                    <section className="container-xxl pb-5">
-                        <div>
-                            <h1 className="py-5 text-center orangeText text-uppercase">Techniques et technologies que j'utilise</h1>
-                        </div>
-                        <div className="row flex-row flex-wrap justify-content-center text-center">
-                            {this.createDOMTechnologyElementList(this.state.data)} 
-                        </div>
-                    </section>
+                <div className="row flex-row flex-wrap justify-content-center text-center">
+                    {this.createDOMTechnologyElementList(this.state.data, this.props.technologies)} 
                 </div>
             );
         }
@@ -91,4 +85,4 @@ class Technology extends React.Component {
     }
 }
 
-export default Technology;
+export default AddTechnology;
