@@ -2,6 +2,7 @@ import AddProject from './addproject/AddProject';
 
 import React from 'react';
 import Axios from 'axios';
+//GET THE STATES FROM AddProject using the return from its child line 22.
 
 class Home extends React.Component {
     constructor(props) {
@@ -9,16 +10,18 @@ class Home extends React.Component {
         this.state ={
             loaded: false,
             error: false,
-            data: null,
-            projects: null,
+            data: null,//To store the json object from API
+            projects: null// To store part of the json object we want to use
         }
     }
 
+    //Function to return an array of all the projects in DOM elements filled with json object datas.
     returnElementsWithProjects(response){
         let listOfElements = [];
-        for(let project of response.data.datas){
-            listOfElements.push(<AddProject project={project} />);
-        }
+        Object.keys(response.data).forEach(key => {
+            //for every object in response.data create a DOM element using the AddProject class and return it in the array
+            listOfElements.push(<AddProject project = {response.data[key]} />);
+        });
         return listOfElements;
     }
 
@@ -28,12 +31,14 @@ class Home extends React.Component {
         Axios.get("/portfolio/projects.json")
         // handle successfull response
         .then( (response) => {
-            //Fill categories with HTML elements coming from listcategory using datas from the api usin the returnElementsWithProjects function
+
+            //To store DOM elements created with datas from API
             let projects = this.returnElementsWithProjects(response);
+            
             this.setState({
                 loaded: true,
                 data: response.data, //Fill data with the raw datas from response
-                projects: projects //Fill categories with the complete element list created with the data in response
+                projects: projects //Fill projects with the complete element list created with the data in response
             });
         })
         // handle response errors
@@ -57,13 +62,14 @@ class Home extends React.Component {
             }
             //Handle http state loaded without and error
             return(
+                // Inject this element in its parent witch is directly the layout
                 <div className="bg-darkPlum">
                     <section className="container-xxl pb-5">
                         <div>
                             <h1 className="py-5 text-center orangeText text-uppercase">Mes projets</h1>
                         </div>
                         <div className="d-flex flex-column flex-xl-row flex-wrap">
-                            {this.state.projects}
+                            {this.state.projects} {/* Fill the element with the content created with the datas from API */}
                         </div>
                     </section>
                 </div>

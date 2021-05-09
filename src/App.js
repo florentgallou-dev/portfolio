@@ -18,7 +18,7 @@ function App() {
   return (
     <div>
       <Router>
-        <Header />
+        <Header />{/*In the router because of the picture ling to the home page*/}
         <Nav />
         <div>
           <Switch>
@@ -33,7 +33,7 @@ function App() {
             </Route>
           </Switch>
         </div>
-        <Footer />
+        <Footer />{/*In the router because of the mailto*/}
       </Router>
     </div>
   );

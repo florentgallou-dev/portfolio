@@ -1,0 +1,90 @@
+{
+    "git": {
+        "name": "Versionning",
+        "icon": "fab fa-git"
+    },
+    "github": {
+        "name": "GitHub",
+        "icon": "fab fa-github"
+    },
+    "markdown": {
+        "name": "MarkDown",
+        "icon": "fab fa-markdown"
+    },
+    "javascript": {
+        "name": "JavaScript",
+        "icon": "fab fa-js"
+    },
+    "html5": {
+        "name": "HTML5",
+        "icon": "fab fa-html5"
+    },
+    "css3": {
+        "name": "CSS3",
+        "icon": "fab fa-css3-alt"
+    },
+    "kanban": {
+        "name": "KanBan",
+        "icon": "fas fa-columns"
+    },
+    "wireframes": {
+        "name": "Wireframes",
+        "icon": "fas fa-sitemap"
+    },
+    "sitemap": {
+        "name": "SiteMap",
+        "icon": "fas fa-sitemap"
+    },
+    "validator": {
+        "name": "Validator",
+        "icon": "fas fa-check-double"
+    },
+    "boilerplate": {
+        "name": "BoilerPlate",
+        "icon": "fas fa-star"
+    },
+    "bootstrap": {
+        "name": "Bootstrap",
+        "icon": "fab fa-bootstrap"
+    },
+    "api": {
+        "name": "API",
+        "icon": "fas fa-cog"
+    },
+    "httprequest": {
+        "name": "httpRequest",
+        "icon": "fas fa-code"
+    },
+    "ajax": {
+        "name": "Ajax",
+        "icon": "fas fa-code"
+    },
+    "es6": {
+        "name": "ECMAScript6",
+        "icon": "fab fa-js"
+    },
+    "dry": {
+        "name": "D.R.Y.",
+        "icon": "fas fa-sitemap"
+    },
+    "react": {
+        "name": "React.js",
+        "icon": "fab fa-react"
+    },
+    "routerdom": {
+        "name": "React router-dom",
+        "icon": "fab fa-react"
+    },
+    "axios": {
+        "name": "React axios",
+        "icon": "fab fa-react"
+    },
+    "nodejs": {
+        "name": "Node.js",
+        "icon": "fab fa-node"
+    },
+    "usecase": {
+        "name": "UseCase",
+        "icon": "fas fa-sitemap"
+    }
+}

@@ -2,25 +2,24 @@ import {Link} from "react-router-dom";
 
 function Nav(){
     return (
-         <nav class="navbar navbar-expand-lg bg-lightPlum">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+        <nav className="navbar navbar-expand-lg bg-lightPlum">
+            <div className="container-fluid">
+                <span className="navbar-brand"></span>
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"><i className="fas fa-bars"></i></span>
                 </button>
-                <div class="row collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
+                <div className="row collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul className="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
                         <li className="nav-item">
-                            <Link className="nav-link lightText fw-bold text-center" to="/home">Projets</Link>
+                            <Link className="nav-link lightText fw-bold text-center" to="/home" aria-label="Afficher mes projets">Projets</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link lightText fw-bold text-center" to="/technology">Technologies</Link>
+                            <Link className="nav-link lightText fw-bold text-center" to="/technology" aria-label="Afficher mes Technologies">Technologies</Link>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-
     );
 }
 

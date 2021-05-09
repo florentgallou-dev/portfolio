@@ -8,8 +8,8 @@
   --orange: #fc4837;
   --pink: #d82793;
 }
-/*---------------------FONTS---------------------*/
 
+/*---------------------FONTS---------------------*/
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Thasadith', sans-serif;
 }
@@ -21,6 +21,7 @@ body, p, span, a, figcaption, label, input {
 a{
   transition: all 0.3s ease-out;
 }
+
 /*---------------------GENERALS---------------------*/
 .bg-realyDarkPlum {
   background-color: var(--realyDarkPlum);
@@ -62,8 +63,7 @@ a:hover {
   border-color: var(--orange) !important;
 }
 
-/*---------------------PAGE---------------------*/
-
+/*---------------------PAGES---------------------*/
 /*header*/
 #divPictureFG {
   width: fit-content;
@@ -116,7 +116,7 @@ footer a {
   color: var(--lightText);
 }
 
-/*projects*/
+/*projects-technologies*/
 .technoBox {
   width: fit-content;
 }
@@ -124,10 +124,6 @@ footer a {
 .projectCard{
   box-shadow: 0px 0px 0px 0px transparent;
   transition: all 0.3s ease-in-out;
-}
-
-.projectCard:hover{
-  box-shadow: 0px 0px 3px 0px var(--green);
 }
 
 .linkToCard{
@@ -145,5 +141,9 @@ footer a {
 @media screen and (min-width: 1200px) {
   header img:hover{
     transform: rotateY(10deg);
+  }
+
+  .projectCard:hover{
+    box-shadow: 0px 0px 3px 0px var(--green);
   }
 }
