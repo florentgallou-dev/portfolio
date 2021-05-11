@@ -126,8 +126,15 @@ footer a, .linkMail {
   transition: all 0.3s ease-in-out;
 }
 
-.linkToCard{
-  text-decoration: none;
+.linkToCard {
+  color: var(--green);
+  border-color: var(--green);
+}
+
+.linkToCard:hover{
+    color: var(--green);
+    background-color: var(--realyDarkPlum);
+    font-weight: bold;
 }
 
 /*---------------------RESPONSIVE---------------------*/
