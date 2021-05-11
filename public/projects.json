@@ -82,10 +82,10 @@
     ]
   },
   {
-    "name": "7/ Site - Banque de Gringotts",
-    "about": "Projet de création de site internet pour une banque, création en javascript de fonctionnalités de gestion de compte et utilisation d'API pour intégration des données.",
-    "urlGh": "https://github.com/FlorentGallou-Dev/banqueGringotts",
-    "urlPage": "https://florentgallou-dev.github.io/banqueGringotts/",
+    "name": "7/ Site - Banque de Gringotts - V1",
+    "about": "Projet de création de site internet pour une banque, création en javascript de fonctionnalités de gestion de compte et utilisation d'API pour intégration des données. Première version entièrement en Front-End.",
+    "urlGh": "https://github.com/FlorentGallou-Dev/banqueGringotts-V1",
+    "urlPage": "https://florentgallou-dev.github.io/banqueGringotts-V1/",
     "technologies": [
       "git",
       "github",

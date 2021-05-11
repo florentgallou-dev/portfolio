@@ -14,3 +14,5 @@
 > 7. Création de la page Home, AddProject, AddTechnology,
 > 8. Création de la page Technology.
 > 9. Vérification des messages d'erreur de la console et validator
+> 10. Amélioré code AddProject j'ai passé la class inutile et sa méthode en simple fonction avec ajout de boutons pour les liens permettant d'accéder à la page GitHub et GH-Page au choix avec condition d'affichage ou non du lien si pas de GH-Page.
+-----
