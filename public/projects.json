@@ -58,7 +58,8 @@
       "kanban",
       "wireframes",
       "sitemap",
-      "validator"
+      "validator",
+      "functionaltree"
     ]
   },
   {
@@ -78,7 +79,8 @@
       "boilerplate",
       "validator",
       "bootstrap",
-      "javascript"
+      "javascript",
+      "functionaltree"
     ]
   },
   {
@@ -101,7 +103,8 @@
       "javascript",
       "api",
       "httprequest",
-      "ajax"
+      "ajax",
+      "functionaltree"
     ]
   },
   {
@@ -123,7 +126,8 @@
       "bootstrap",
       "javascript",
       "es6",
-      "dry"
+      "dry",
+      "functionaltree"
     ]
   },
   {
@@ -150,7 +154,8 @@
       "react",
       "routerdom",
       "axios",
-      "nodejs"
+      "nodejs",
+      "functionaltree"
     ]
   },
   {
@@ -177,7 +182,8 @@
       "react",
       "routerdom",
       "axios",
-      "nodejs"
+      "nodejs",
+      "functionaltree"
     ]
   }
 ]
