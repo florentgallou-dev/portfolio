@@ -87,7 +87,7 @@
         "name": "UseCase",
         "icon": "fas fa-sitemap"
     },
-    "FunctionalTree": {
+    "functionaltree": {
         "name": "Functional Tree",
         "icon": "fas fa-sitemap"
     }
