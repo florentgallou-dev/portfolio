@@ -1,7 +1,55 @@
 {
-    "git": {
-        "name": "Versionning",
-        "icon": "fab fa-git"
+    "symfony": {
+        "name": "Symfony",
+        "icon": "fas fa-code"
+    },
+    "laravel": {
+        "name": "Laravel",
+        "icon": "fas fa-code"
+    },
+    "nodejs": {
+        "name": "Node.js",
+        "icon": "fab fa-node"
+    },
+    "vue3": {
+        "name": "Vue-3",
+        "icon": "fas fa-code"
+    },
+    "react": {
+        "name": "React.js",
+        "icon": "fas fa-code"
+    },
+    "next": {
+        "name": "Next.js",
+        "icon": "fas fa-code"
+    },
+    "reactnative": {
+        "name": "React Native",
+        "icon": "fas fa-code"
+    },
+    "javascript": {
+        "name": "JavaScript",
+        "icon": "fab fa-js"
+    },
+    "typescript": {
+        "name": "TypeScript",
+        "icon": "fas fa-code"
+    },
+    "tailwindcss": {
+        "name": "Tailwindcss",
+        "icon": "fas fa-code"
+    },
+    "bootstrap": {
+        "name": "Bootstrap",
+        "icon": "fab fa-bootstrap"
+    },
+    "routerdom": {
+        "name": "React router-dom",
+        "icon": "fab fa-react"
+    },
+    "axios": {
+        "name": "React axios",
+        "icon": "fab fa-react"
     },
     "github": {
         "name": "GitHub",
@@ -11,9 +59,9 @@
         "name": "MarkDown",
         "icon": "fab fa-markdown"
     },
-    "javascript": {
-        "name": "JavaScript",
-        "icon": "fab fa-js"
+    "usecase": {
+        "name": "UseCase",
+        "icon": "fas fa-sitemap"
     },
     "html5": {
         "name": "HTML5",
@@ -23,32 +71,8 @@
         "name": "CSS3",
         "icon": "fab fa-css3-alt"
     },
-    "kanban": {
-        "name": "KanBan",
-        "icon": "fas fa-columns"
-    },
-    "wireframes": {
-        "name": "Wireframes",
-        "icon": "fas fa-sitemap"
-    },
-    "sitemap": {
-        "name": "SiteMap",
-        "icon": "fas fa-sitemap"
-    },
-    "validator": {
-        "name": "Validator",
-        "icon": "fas fa-check-double"
-    },
-    "boilerplate": {
-        "name": "BoilerPlate",
-        "icon": "fas fa-star"
-    },
-    "bootstrap": {
-        "name": "Bootstrap",
-        "icon": "fab fa-bootstrap"
-    },
     "api": {
-        "name": "API",
+        "name": "API Rest",
         "icon": "fas fa-cog"
     },
     "httprequest": {
@@ -63,28 +87,32 @@
         "name": "ECMAScript6",
         "icon": "fab fa-js"
     },
+    "kanban": {
+        "name": "KanBan",
+        "icon": "fas fa-columns"
+    },
+    "wireframes": {
+        "name": "Wireframes",
+        "icon": "fas fa-sitemap"
+    },
+    "sitemap": {
+        "name": "SiteMap",
+        "icon": "fas fa-sitemap"
+    },
     "dry": {
         "name": "D.R.Y.",
         "icon": "fas fa-sitemap"
     },
-    "react": {
-        "name": "React.js",
-        "icon": "fab fa-react"
+    "boilerplate": {
+        "name": "BoilerPlate",
+        "icon": "fas fa-star"
     },
-    "routerdom": {
-        "name": "React router-dom",
-        "icon": "fab fa-react"
+    "git": {
+        "name": "Versionning",
+        "icon": "fab fa-git"
     },
-    "axios": {
-        "name": "React axios",
-        "icon": "fab fa-react"
-    },
-    "nodejs": {
-        "name": "Node.js",
-        "icon": "fab fa-node"
-    },
-    "usecase": {
-        "name": "UseCase",
-        "icon": "fas fa-sitemap"
+    "validator": {
+        "name": "Validator",
+        "icon": "fas fa-check-double"
     }
 }

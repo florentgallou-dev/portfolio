@@ -1,52 +1,100 @@
 [
   {
-    "name": "1/ Initiation à Git",
-    "about": "Initiation aux principes de base du logiciel de versionning Git et de GitHub",
-    "urlGh": "https://github.com/FlorentGallou-Dev/atelierGit",
+    "name": "SNCF TrainMe - TMA",
+    "about": "TMA on SNCF internal Seriousgame, Symfony based and JQuery for BO, React Native for the mobile app. Working on the evolution and maintaining it secured. Now evolution from Jquery to Vue3",
+    "urlGh": null,
     "urlPage": null,
     "technologies": [
-      "git",
-      "github"
+      "symfony",
+      "tailwindcss",
+      "vue3",
+      "reactnative"
     ]
   },
   {
-    "name": "2/ Initiation au Markdown",
-    "about": "Initiation au principe de documentation de projet en utilisant une synthaxe en Markdown.",
-    "urlGh": "https://github.com/FlorentGallou-Dev/lexique",
-    "urlPage": null,
+    "name": "Digiworks WebSite",
+    "about": "Redesign from scatch of the new Digiworks WebSite, oriented to the SEO new need, based on Laravel and Tailwind technologies with a bit of AlpineJs",
+    "urlGh": null,
+    "urlPage": "https://digiworks.fr",
     "technologies": [
-      "git",
-      "github",
-      "markdown"
-    ]
-  },
-  {
-    "name": "3/ Pierre Feuille Ciseaux",
-    "about": "Projet de création d'un jeu Pierre Feuille Ciseaux entièrement en js en utilisant uniquement la méthode 'Alert'.",
-    "urlGh": "https://github.com/FlorentGallou-Dev/pierre_feuille_ciseaux",
-    "urlPage": "https://florentgallou-dev.github.io/pierre_feuille_ciseaux/",
-    "technologies": [
-      "git",
-      "github",
-      "markdown",
+      "laravel",
+      "tailwindcss",
       "javascript"
     ]
   },
   {
-    "name": "4/ Jeu du pendu",
-    "about": "Projet de création d'un jeu du pendu entièrement en js en utilisant uniquement la méthode 'Alert'.",
-    "urlGh": "https://github.com/FlorentGallou-Dev/hangman_game",
-    "urlPage": "https://florentgallou-dev.github.io/hangman_game/",
+    "name": "Clocking of working hours application",
+    "about": "A back end and desktop clocking of working hours application for an industrial customer. It is based on Laravel Blade Tailwind technologies.",
+    "urlGh": null,
+    "urlPage": null,
     "technologies": [
-      "git",
-      "github",
-      "markdown",
+      "laravel",
+      "tailwindcss",
       "javascript"
     ]
   },
   {
-    "name": "5/ Site - Terre de Geek",
-    "about": "Projet de site internet vitrine sur le thème d'un magasin de vente d'informatique et goodies geek entièrement contruit en HTML5 et CSS3 en respectant le responsive design mobile first.",
+    "name": "My portfolio.",
+    "about": "My first web portfolio, created only with React and axios for data query on a local json file.",
+    "urlGh": "https://github.com/FlorentGallou-Dev/portfolio",
+    "urlPage": "https://florentgallou-dev.github.io/portfolio/",
+    "technologies": [
+      "react",
+      "routerdom",
+      "axios",
+      "nodejs"
+    ]
+  },
+  {
+    "name": "Dynamic website presenting information rested to the SWAPI API.",
+    "about": "First react.js project introducing react.js concept and workflow, using a react.js and bootstrap architectures i have to create a dynamic website that requests the star wars api to display it's datas.",
+    "urlGh": "https://github.com/FlorentGallou-Dev/appfrontreactapi",
+    "urlPage": "https://florentgallou-dev.github.io/appfrontreactapi/",
+    "technologies": [
+      "react",
+      "routerdom",
+      "axios",
+      "nodejs"
+    ]
+  },
+  {
+    "name": "Pairs game",
+    "about": "A simple JavaScript ES6 apir game project",
+    "urlGh": "https://github.com/FlorentGallou-Dev/memoryGame",
+    "urlPage": "https://florentgallou-dev.github.io/memoryGame/",
+    "technologies": [
+      "bootstrap",
+      "javascript",
+      "es6",
+      "dry"
+    ]
+  },
+  {
+    "name": "Gringotts bank- V1",
+    "about": "First work on a dynamic JavaScript bank with api fetching.",
+    "urlGh": "https://github.com/FlorentGallou-Dev/banqueGringotts-V1",
+    "urlPage": "https://florentgallou-dev.github.io/banqueGringotts-V1/",
+    "technologies": [
+      "bootstrap",
+      "javascript",
+      "api",
+      "httprequest",
+      "ajax"
+    ]
+  },
+  {
+    "name": "NorImmo",
+    "about": "Quick light front app for real estate management",
+    "urlGh": "https://github.com/FlorentGallou-Dev/norImmo",
+    "urlPage": "https://florentgallou-dev.github.io/norImmo/",
+    "technologies": [
+      "bootstrap",
+      "javascript"
+    ]
+  },
+  {
+    "name": "Terre de Geek",
+    "about": "Basic HTML CSS project",
     "urlGh": "https://github.com/FlorentGallou-Dev/TerreDeGeek",
     "urlPage": "https://florentgallou-dev.github.io/TerreDeGeek/",
     "technologies": [
@@ -62,122 +110,48 @@
     ]
   },
   {
-    "name": "6/ Site - NorImmo",
-    "about": "Projet de site internet vitrine sur le thème d'un entreprise de construction/rénovation immobilière, travail effectué en équipe avec Axel Jarnigon. Entièrement contruit en Bootstrap et dynamisé en JavaScript respectant le responsive design mobile first.",
-    "urlGh": "https://github.com/FlorentGallou-Dev/norImmo",
-    "urlPage": "https://florentgallou-dev.github.io/norImmo/",
+    "name": "Hangman game",
+    "about": "Only JavaScript game test",
+    "urlGh": "https://github.com/FlorentGallou-Dev/hangman_game",
+    "urlPage": "https://florentgallou-dev.github.io/hangman_game/",
     "technologies": [
       "git",
       "github",
       "markdown",
-      "html5",
-      "css3",
-      "kanban",
-      "wireframes",
-      "sitemap",
-      "boilerplate",
-      "validator",
-      "bootstrap",
       "javascript"
     ]
   },
   {
-    "name": "7/ Site - Banque de Gringotts - V1",
-    "about": "Projet de création de site internet pour une banque, création en javascript de fonctionnalités de gestion de compte et utilisation d'API pour intégration des données. Première version entièrement en Front-End.",
-    "urlGh": "https://github.com/FlorentGallou-Dev/banqueGringotts-V1",
-    "urlPage": "https://florentgallou-dev.github.io/banqueGringotts-V1/",
+    "name": "Rock Paper Scissors",
+    "about": "Promp Alert Rock Paper Scissors game in JavaScript",
+    "urlGh": "https://github.com/FlorentGallou-Dev/pierre_feuille_ciseaux",
+    "urlPage": "https://florentgallou-dev.github.io/pierre_feuille_ciseaux/",
     "technologies": [
       "git",
       "github",
       "markdown",
-      "html5",
-      "css3",
-      "kanban",
-      "wireframes",
-      "sitemap",
-      "boilerplate",
-      "validator",
-      "bootstrap",
-      "javascript",
-      "api",
-      "httprequest",
-      "ajax"
+      "javascript"
     ]
   },
   {
-    "name": "8/ Site - Jeu des paires",
-    "about": "Projet de création de site internet de jeu des paires entèrement réalisé en html css et javascript en respectant les normes ES6.",
-    "urlGh": "https://github.com/FlorentGallou-Dev/memoryGame",
-    "urlPage": "https://florentgallou-dev.github.io/memoryGame/",
+    "name": "Markdown initiation",
+    "about": "Markedown essai",
+    "urlGh": "https://github.com/FlorentGallou-Dev/lexique",
+    "urlPage": null,
     "technologies": [
       "git",
       "github",
-      "markdown",
-      "html5",
-      "css3",
-      "kanban",
-      "wireframes",
-      "sitemap",
-      "boilerplate",
-      "validator",
-      "bootstrap",
-      "javascript",
-      "es6",
-      "dry"
+      "markdown"
     ]
   },
   {
-    "name": "9/ Website - Dynamic website presenting information rested to the SWAPI API.",
-    "about": "First react.js project introducing react.js concept and workflow, using a react.js and bootstrap architectures i have to create a dynamic website that requests the star wars api to display it's datas.",
-    "urlGh": "https://github.com/FlorentGallou-Dev/appfrontreactapi",
-    "urlPage": "https://florentgallou-dev.github.io/appfrontreactapi/",
+    "name": "Git initiation",
+    "about": "Git and GitHub learning",
+    "urlGh": "https://github.com/FlorentGallou-Dev/atelierGit",
+    "urlPage": null,
     "technologies": [
       "git",
-      "github",
-      "markdown",
-      "html5",
-      "css3",
-      "kanban",
-      "wireframes",
-      "sitemap",
-      "boilerplate",
-      "validator",
-      "bootstrap",
-      "javascript",
-      "es6",
-      "dry",
-      "api",
-      "react",
-      "routerdom",
-      "axios",
-      "nodejs"
-    ]
-  },
-  {
-    "name": "10/ Site - Mon portfolio.",
-    "about": "Création de mon portfolio pour valider la fin du Front-end, le mot d'ordre, se faire plaisir et appliquer le maximum de technologies vues jusqu'alors.",
-    "urlGh": "https://github.com/FlorentGallou-Dev/portfolio",
-    "urlPage": "https://florentgallou-dev.github.io/portfolio/",
-    "technologies": [
-      "git",
-      "github",
-      "markdown",
-      "html5",
-      "css3",
-      "kanban",
-      "wireframes",
-      "sitemap",
-      "boilerplate",
-      "validator",
-      "bootstrap",
-      "javascript",
-      "es6",
-      "dry",
-      "api",
-      "react",
-      "routerdom",
-      "axios",
-      "nodejs"
+      "github"
     ]
   }
 ]
